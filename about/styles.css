@@ -1,0 +1,28 @@
+
+body {
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      line-height: 2.0;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+	  background:darkgrey;
+}
+
+ h1 {
+	 font-family: Verdana, sans-serif;
+	 font-weight: bold;
+     text-align: center;
+     margin-bottom: 20px;
+     background: crimson
+}
+h2 {
+	font-family:'Times New Roman', Times, serif;
+	font-weight: bold;
+    background: crimson;
+}
+
+p {
+   margin-bottom: 10px;
+   font-style: italic;
+}
+

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Order-Form">
+    <meta name="author" content="YumySpot">
+    <title>Place your order for our sevices</title>
+    <link rel="stylesheet" href="CSS/style1.css">
+</head>
+<body>
+  <div>
+  <form action="" method="post">
+    <h2>Place your order for our Catering Services</h2>
+    <div class="my-form">
+        <label class="form1" for="fname"> First Name</label> <br>
+        <input type="text" name="first-name" id="name" placeholder="First name" autofocus required>
+    </div>
+    <div class="my-form">
+      <label class="form1" for="lname">Last Name</label> <br>
+      <input type="text" name="last-name" id="lname" placeholder="Second name" required>
+    </div>
+    <div class="my-form">
+      <label class="form1" for="email-address">Email</label><br>
+      <input type="email" name="email" id="email-address" placeholder="eg richardsmith@example.com">
+    </div>
+    <div class="my-form">
+      <label class="form1" for="phone-number">Phone Number</label><br>
+      <input type="tel" name="phone-number" id="phone-number" required>
+    </div>
+    <div class="my-form">
+      <label for="district">District</label>
+      <select name="district" id="district">
+      <option value="Kampala">Kampala</option>
+      <option value="Mukono">Mukono</option>
+      <option value="Wakiso">Wakiso</option>
+      <option value="Masaka">Masaka</option>
+      <option value="Mpigi">Mpigi</option>
+      <option value="Mityana">Mityana</option>
+      <option value="Mubende">Mubende</option>
+      <option value="Fort-Portal">Fort-Portal</option>
+      <option value="Mbarara">Mbarara</option>
+      </select>
+
+    </div>
+    <div class="my-form">
+      <label for="address">Home Address</label> <br>
+      <input type="text" name="address" id="address" autofocus required>
+    </div>
+  <div class="service">
+      <label for="Service" id="service">Which Service should we send you?</label>
+      <label for="Wedding-Catering">
+        <input type="radio" name="Service" id="Wedding-Catering">Wedding Catering
+      </label>
+      <label for="Corporate-Catering">
+        <input type="radio" name="Service" id="Corporate-Catering">Corporate Catering
+      </label>
+      <label for="Full-Catering">
+        <input type="radio" name="Service" id="Full-Catering"> Full Catering
+      </label>
+      <label for="Mobile-Catering">
+        <input type="radio" name="Service" id="Mobile-Catering"> Mobile Catering
+      </label><br><br>
+    </div>
+    <div  class="size">
+      <label for="Group-Size" id="size">How large is your group?</label>
+      <label  for="50-100">
+        <input type="radio" name="Group-Size">50-100 People
+      </label>
+      <label  for="100-250">
+        <input type="radio" name="Group-Size">100-250 People
+      </label>
+      <label for="250-Above">
+        <input type="radio" name="Group-Size">250 and Above
+      </label>
+    </div><br>
+    <div>
+      <label for="date">Event Date</label>
+      <input type="date" name="event-date" id="date" required>
+    </div><br>
+    <div>
+      <label for="even-time">Event Start Time</label>
+      <input type="time" name="even-time" id="event-time">
+    </div><br>
+    <div>
+      <label for="comment">Add Comment</label> <br>
+      <textarea name="Comment" id="comment" cols="30" rows="10"></textarea>
+    </div><br>
+    <button type="submit" class="submit-button">Submit</button>
+  </form> 
+</div> 
+</body>
+</html>

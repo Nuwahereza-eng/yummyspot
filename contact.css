@@ -1,0 +1,47 @@
+body{
+    background-color: lightgray;
+    padding: 10px;
+    margin: 20px;
+    
+    font-size: larger;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    h1{
+      font-style: bold;
+      text-align: center;
+    }
+    label{
+      display:block;
+
+    }
+    input{
+        display:block;
+        width: 25%;
+    }
+    p{
+        padding: 10px;
+        margin: auto;
+
+    }
+    .comment {
+      margin-top: 10px;
+    }
+    
+    .submit {
+      padding: 10px 12px;
+      border: 2px solid blue;
+      border-radius: 8px;
+      margin: 8px 10px;
+      cursor: pointer;
+      color:blue;
+      font-size: 18px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+a:hover {
+  color:blue;
+}
+a:visited {color:brown;}
